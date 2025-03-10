@@ -65,7 +65,7 @@ def submenu(choice):
     clear_screen()  # Clear the screen before launching the script
     if choice == 1:
         print(f"{bold}{blue}Launching Malware Analysis...{reset}")
-        launch_script("MalwareAnalysis.py")
+        launch_script("MalwareAnalysis/MalwareAnalysis.py")
     elif choice == 2:
         print(f"{bold}{blue}Launching System Analysis...{reset}")
         launch_script("SystemAnalysis.py")
